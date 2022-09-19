@@ -1,0 +1,190 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans;
+    font-style: normal;
+    color: #212121
+}
+
+
+:root{
+--primary-text-color: #212121;
+--secondary-text-color: #757575;
+--primary-background-color:#fff;
+--secondary-background-color:#2F303A;
+--third-background-color: #F5F4FA;
+--accent-color: #2196F3;
+}
+
+/* -------------Logo---------------- */
+.logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+        text-decoration: none;
+}
+
+.logo-part-two {
+    color: #000;
+}
+
+.logo-footer-part-two {
+    color: var(--primary-background-color)
+}
+
+/* -------------header----------- */
+.header-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: inherit;
+    }
+
+.header-link:focus,
+.header-link:hover{
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-list-contacts a {
+    color: var(--secondary-text-color);
+}
+.header-list-contacts a:focus,
+.header-list-contacts a:hover {
+    color:var(--accent-color)
+}
+ /* ------------------Hero-------------- */
+
+.hero{
+    background-color: var(--secondary-background-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
+}
+
+/* --------------SectionFirst--------------------------- */
+.first-section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.first-section-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* --------------------ThirdSection-------------------- */
+.third-section-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.third-section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* ----------------------Porfolio----------------- */
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+}
+
+.btn:focus,
+.btn:hover {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+
+/* ----------------SectionPortfolio-------------- */
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* -------------------Footer--------------------- */
+.footer {
+    background: var(--secondary-background-color);
+}
+
+.footer-list a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-link {
+    color: var(--primary-background-color);
+}
+.footer-link-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
