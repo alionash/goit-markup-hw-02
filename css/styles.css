@@ -93,6 +93,11 @@ body {
     cursor: pointer;
 }
 
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: #188CE8;
+}
+
 
 /* --------------SectionFirst--------------------------- */
 
