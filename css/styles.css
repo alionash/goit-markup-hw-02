@@ -1,23 +1,23 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --primary-background-color: #fff;
+    --secondary-background-color: #2F303A;
+    --third-background-color: #F5F4FA;
+    --accent-color: #2196F3;
+}
+
+
 body {
     background-color: #fff;
-    font-family: 'Roboto', sans;
-    font-style: normal;
-    color: #212121
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
 }
 
-
-:root{
---primary-text-color: #212121;
---secondary-text-color: #757575;
---primary-background-color:#fff;
---secondary-background-color:#2F303A;
---third-background-color: #F5F4FA;
---accent-color: #2196F3;
-}
 
 /* -------------Logo---------------- */
 .logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -45,6 +45,10 @@ body {
 
 .header-link:focus,
 .header-link:hover{
+    color: var(--accent-color);
+}
+
+.header-list .header-link.current {
     color: var(--accent-color);
 }
 
@@ -83,15 +87,28 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--accent-color);
     color: var(--primary-background-color);
+    cursor: pointer;
 }
 
+
 /* --------------SectionFirst--------------------------- */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .first-section-title {
     font-weight: 700;
     font-size: 14px;
@@ -145,6 +162,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    cursor: pointer;
 }
 
 .btn:focus,
@@ -177,6 +195,7 @@ body {
 }
 
 .footer-list a {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
